@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font awesome library -->
+		<link rel="stylesheet" href="css/all.min.css" />
+		<!-- render all css elements normally -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!-- main css stylesheet -->
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Directone</title>
+	</head>
+	<body>
+		<div id="fullScreenImg">
+			<div class="container">
+				<div class="image">
+					<img src="" alt="" />
+				</div>
+				<video src="videos/video.mp4" controls muted loop autoplay></video>
+				<div class="closeImg" id="closeImg">
+					<i class="fa-solid fa-x"></i>
+				</div>
+			</div>
+		</div>
+		<!-- Start Header -->
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="home.html">
+						<i class="far fa-compass"></i>
+						<span>
+							Directone
+							<small>directory and listing</small>
+						</span>
+					</a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="#home">home</a>
+						</li>
+						<li>
+							<a href="#about">about</a>
+						</li>
+						<li>
+							<a href="#listing">listing</a>
+						</li>
+						<li>
+							<a href="#blog">blog</a>
+						</li>
+						<li>
+							<a href="contact.html">contact</a>
+						</li>
+					</ul>
+					<div class="add-listing">
+						<a href="#">
+							<i class="fal fa-plus"></i>
+							add listing
+						</a>
+					</div>
+				</div>
+				<div class="menu-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<!-- End Header -->
+		<!-- Start Home -->
+		<div class="home" id="home">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="text">
+					<h1>Let's explore your awesome city</h1>
+					<p>
+						Find great places to stay, eat, shop, or visit from local experts.
+					</p>
+				</div>
+				<form action="">
+					<div class="box">
+						<i class="fas fa-search"></i>
+						<input type="text" placeholder="What are you looking for?" />
+					</div>
+					<div class="box">
+						<i class="fas fa-map-marker-alt"></i>
+						<input type="text" placeholder="Search Location" />
+					</div>
+					<div class="box">
+						<i class="fas fa-angle-down"></i>
+						<select name="" id="">
+							<option value="all-categories">All Categories</option>
+							<option value="food-drinks">Food & Drinks</option>
+							<option value="Hotels">Hotels</option>
+							<option value="Shopping">Shopping</option>
+							<option value="Beauty">Beauty</option>
+							<option value="Fitness">Fitness</option>
+							<option value="Clubs">Clubs</option>
+							<option value="Games">Games</option>
+							<option value="Places">Places</option>
+							<option value="Circus">Circus</option>
+							<option value="Theater">Theater</option>
+							<option value="Sports">Sports</option>
+							<option value="Health">Health</option>
+						</select>
+					</div>
+					<div class="box">
+						<i class="fas fa-search"></i>
+						<input type="submit" value="Search" />
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- End Home -->
+		<!-- Start Categories -->
+		<div class="categories">
+			<div class="container">
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-burger"></i>
+						<h3>Food & Drink</h3>
+						<p>
+							<span>103</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-hotel"></i>
+						<h3>Hotels</h3>
+						<p>
+							<span>40</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-shopping-bag"></i>
+						<h3>Shopping</h3>
+						<p>
+							<span>100</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-ring"></i>
+						<h3>Beauty</h3>
+						<p>
+							<span>36</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-running"></i>
+						<h3>Fittness</h3>
+						<p>
+							<span>30</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-heart"></i>
+						<h3>Club</h3>
+						<p>
+							<span>12</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-dice-six"></i>
+						<h3>Games</h3>
+						<p>
+							<span>103</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-map-pin"></i>
+						<h3>Places</h3>
+						<p>
+							<span>40</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-horse"></i>
+						<h3>Circus</h3>
+						<p>
+							<span>100</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-theater-masks"></i>
+						<h3>Theater</h3>
+						<p>
+							<span>36</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fas fa-dumbbell"></i>
+						<h3>Sports</h3>
+						<p>
+							<span>30</span>
+							Listings
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#" class="box">
+						<i class="fa-solid fa-hand-holding-medical"></i>
+						<h3>Health</h3>
+						<p>
+							<span>12</span>
+							Listings
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- End Categories -->
+		<!-- Start Popular Listing -->
+		<div class="popular-listing">
+			<div class="section-heading">
+				<p>Our listing</p>
+				<h2>popular listing</h2>
+			</div>
+			<div class="container">
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-burger"></i>
+							</div>
+							<span class="subheading">food & drink</span>
+							<h3>Japanese Restaurant</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-hotel"></i>
+							</div>
+							<span class="subheading">hotel</span>
+							<h3>Harbor Lights Hotel</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fas fa-shopping-bag"></i>
+							</div>
+							<span class="subheading">shopping</span>
+							<h3>MS Center Mall of Asia</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fas fa-running"></i>
+							</div>
+							<span class="subheading">gym fitness</span>
+							<h3>Maxout Fitness Gym</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Popular Listing -->
+		<!-- Start Special Offers -->
+		<div class="special-offers">
+			<div class="container">
+				<div class="image"></div>
+				<div class="holder">
+					<div class="text">
+						<p>special offers</p>
+						<h2>we have special offers every now and then</h2>
+					</div>
+					<div class="link">
+						<a href="#"> show special offers </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Special Offers -->
+		<!-- Start Listing -->
+		<div class="listing" id="listing">
+			<div class="section-heading">
+				<p>listing</p>
+				<h2>Our listing</h2>
+			</div>
+			<div class="container">
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-ring"></i>
+							</div>
+							<span class="subheading">beauty</span>
+							<h3>Japanese Restaurant</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-heart"></i>
+							</div>
+							<span class="subheading">clubs</span>
+							<h3>harbor lights hotel</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-horse"></i>
+							</div>
+							<span class="subheading">circus</span>
+							<h3>ms center mall of asia</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-theater-masks"></i>
+							</div>
+							<span class="subheading">theater</span>
+							<h3>max out fitness gym</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-theater-masks"></i>
+							</div>
+							<span class="subheading">theater</span>
+							<h3>japanese restaurant</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-dumbbell"></i>
+							</div>
+							<span class="subheading">sports</span>
+							<h3>harbor lights hotel</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-dice-six"></i>
+							</div>
+							<span class="subheading">games</span>
+							<h3>ms center mall of asia</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item main-item">
+					<div class="holder">
+						<div class="box">
+							<a href="#" class="image zoom-in">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div class="text">
+							<div class="icon">
+								<i class="fa-solid fa-map-pin"></i>
+							</div>
+							<span class="subheading">Places</span>
+							<h3>max out fitness gym</h3>
+							<ul>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+									Suite 721 New York NY 10016
+								</li>
+								<li>
+									<i class="fa-solid fa-phone"></i>
+									+00 123 456 7890
+								</li>
+							</ul>
+							<hr />
+							<div class="review">
+								<div class="left">
+									<span>Review</span>
+									5.0/5
+									<i class="fa-solid fa-star"></i>
+									(100)
+								</div>
+								<div class="right">
+									<div class="heart">
+										<i class="fa-solid fa-heart"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Listing -->
+		<!-- Start Welcome -->
+		<div class="welcome">
+			<div class="container">
+				<div class="image"></div>
+				<div class="text">
+					<div class="holder">
+						<div class="section-heading">
+							<p>welcome to directone</p>
+							<h2>directone a directory & listing</h2>
+						</div>
+						<p>
+							Far far away, behind the word mountains, far from the countries
+							Vokalia and Consonantia, there live the blind texts. Separated
+							they live in Bookmarksgrove right at the coast of the Semantics, a
+							large language ocean.
+						</p>
+						<p>
+							A small river named Duden flows by their place and supplies it
+							with the necessary regelialia. It is a paradisematic country, in
+							which roasted parts of sentences fly into your mouth.
+						</p>
+						<div class="stats">
+							<div class="box">
+								<h3>50</h3>
+								<p>years of exprienced</p>
+							</div>
+							<div class="box">
+								<h3>210K+</h3>
+								<p>total listing</p>
+							</div>
+							<div class="box">
+								<h3>450</h3>
+								<p>company staf</p>
+							</div>
+							<div class="box">
+								<h3>100</h3>
+								<p>happy people</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Welcome -->
+		<!-- Start Testimonial -->
+		<div class="testimonial">
+			<div class="section-heading">
+				<p>testimonial</p>
+				<h2>happy people</h2>
+			</div>
+			<div class="container">
+				<div class="box">
+					<div class="icon"></div>
+					<p>
+						Far far away, behind the word mountains, far from the countries
+						Vokalia and Consonantia, there live the blind texts.
+					</p>
+					<div class="holder">
+						<div class="image"></div>
+						<div class="text">
+							<h3>Roger Scott</h3>
+							<p>marketing manager</p>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"></div>
+					<p>
+						Far far away, behind the word mountains, far from the countries
+						Vokalia and Consonantia, there live the blind texts.
+					</p>
+					<div class="holder">
+						<div class="image"></div>
+						<div class="text">
+							<h3>Roger Scott</h3>
+							<p>marketing manager</p>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"></div>
+					<p>
+						Far far away, behind the word mountains, far from the countries
+						Vokalia and Consonantia, there live the blind texts.
+					</p>
+					<div class="holder">
+						<div class="image"></div>
+						<div class="text">
+							<h3>Roger Scott</h3>
+							<p>marketing manager</p>
+						</div>
+					</div>
+				</div>
+				<ul class="dots">
+					<li class="active"></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!-- End Testimonial -->
+		<!-- Start How Works -->
+		<div class="how-works">
+			<div class="background-pattern"></div>
+			<div class="section-heading">
+				<p>let's find out</p>
+				<h2>how it works</h2>
+			</div>
+			<div class="container">
+				<div class="video">
+					<div class="icon" id="playvideo">
+						<i class="fa-solid fa-play"></i>
+					</div>
+					<div class="image"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="box">
+					<div class="icon">
+						<i class="fa-solid fa-hotel"></i>
+					</div>
+					<h3>choose a category</h3>
+					<p>
+						A small river named Duden flows by their place and supplies it with
+						the necessary regelialia. It is a paradisematic country, in which
+						roasted parts of sentences fly into your mouth.
+					</p>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<i class="fa-solid fa-hotel"></i>
+					</div>
+					<h3>find what you want</h3>
+					<p>
+						A small river named Duden flows by their place and supplies it with
+						the necessary regelialia. It is a paradisematic country, in which
+						roasted parts of sentences fly into your mouth.
+					</p>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<i class="fa-solid fa-hotel"></i>
+					</div>
+					<h3>select the best place</h3>
+					<p>
+						A small river named Duden flows by their place and supplies it with
+						the necessary regelialia. It is a paradisematic country, in which
+						roasted parts of sentences fly into your mouth.
+					</p>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<i class="fa-solid fa-hotel"></i>
+					</div>
+					<h3>explore the place</h3>
+					<p>
+						A small river named Duden flows by their place and supplies it with
+						the necessary regelialia. It is a paradisematic country, in which
+						roasted parts of sentences fly into your mouth.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- End How Works -->
+		<!-- Start Blog -->
+		<div class="blog" id="blog">
+			<div class="section-heading">
+				<p>our blog</p>
+				<h2>recent blog</h2>
+			</div>
+			<div class="container">
+				<div class="item">
+					<div class="box">
+						<div class="image">
+							<div class="description">
+								<div class="left">
+									<img src="images/testimonial1.webp" alt="" />
+									<strong>John Dorf</strong>
+								</div>
+								<div class="right">
+									<i class="fa-solid fa-heart"></i>
+								</div>
+							</div>
+						</div>
+						<div class="text">
+							<span
+								>dec. 05, 2020
+								<a href="#">3 comments</a>
+							</span>
+							<h4>Explore the best restaurant in new york</h4>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box">
+						<div class="image">
+							<div class="description">
+								<div class="left">
+									<img src="images/testimonial1.webp" alt="" />
+									<strong>John Dorf</strong>
+								</div>
+								<div class="right">
+									<i class="fa-solid fa-heart"></i>
+								</div>
+							</div>
+						</div>
+						<div class="text">
+							<span
+								>dec. 05, 2020
+								<a href="#">3 comments</a>
+							</span>
+							<h4>Explore the best restaurant in new york</h4>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box">
+						<div class="image">
+							<div class="description">
+								<div class="left">
+									<img src="images/testimonial1.webp" alt="" />
+									<strong>John Dorf</strong>
+								</div>
+								<div class="right">
+									<i class="fa-solid fa-heart"></i>
+								</div>
+							</div>
+						</div>
+						<div class="text">
+							<span
+								>dec. 05, 2020
+								<a href="#">3 comments</a>
+							</span>
+							<h4>Explore the best restaurant in new york</h4>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box">
+						<div class="image">
+							<div class="description">
+								<div class="left">
+									<img src="images/testimonial1.webp" alt="" />
+									<strong>John Dorf</strong>
+								</div>
+								<div class="right">
+									<i class="fa-solid fa-heart"></i>
+								</div>
+							</div>
+						</div>
+						<div class="text">
+							<span
+								>dec. 05, 2020
+								<a href="#">3 comments</a>
+							</span>
+							<h4>Explore the best restaurant in new york</h4>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Blog -->
+		<!-- Start Footer -->
+		<footer>
+			<div class="container">
+				<div class="logo">
+					<a href="home.html">
+						Directone
+						<small>directory and listing</small>
+					</a>
+					<p>
+						A small river named Duden flows by their place and supplies it with
+						the necessary regelialia.
+					</p>
+					<ul class="social">
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links">
+					<h4>Explore</h4>
+					<ul>
+						<li>
+							<a href="#">about us</a>
+						</li>
+						<li>
+							<a href="#">account</a>
+						</li>
+						<li>
+							<a href="#">listing</a>
+						</li>
+						<li>
+							<a href="#">pricing packages</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links">
+					<h4>Quick Links</h4>
+					<ul>
+						<li>
+							<a href="#">contact us</a>
+						</li>
+						<li>
+							<a href="#">terms & conditions</a>
+						</li>
+						<li>
+							<a href="#">privacy</a>
+						</li>
+						<li>
+							<a href="#">feedbacks</a>
+						</li>
+					</ul>
+				</div>
+				<div class="links">
+					<h4>Categories</h4>
+					<ul>
+						<li>
+							<a href="#">food & drinks</a>
+						</li>
+						<li>
+							<a href="#">hotels</a>
+						</li>
+						<li>
+							<a href="#">shopping</a>
+						</li>
+						<li>
+							<a href="#">beauty</a>
+						</li>
+						<li>
+							<a href="#">fitness</a>
+						</li>
+						<li>
+							<a href="#">club</a>
+						</li>
+					</ul>
+				</div>
+				<div class="contact">
+					<h4>have a question?</h4>
+					<div class="text">
+						<i class="fa-solid fa-map"></i>
+						<p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+					</div>
+					<div class="text">
+						<i class="fa-solid fa-phone"></i>
+						<a href="#">+2 392 3929 210</a>
+					</div>
+					<div class="text">
+						<i class="fa-solid fa-paper-plane"></i>
+						<a href="#">info@yourdomain.com</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!-- JS Scripts -->
+		<script src="js/custom.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$(".nav a").click(function () {
+					$(".nav a").removeClass("active");
+					$(this).addClass("active");
+				});
+
+				$(".zoom-in").click(function fullScreen(anything) {
+					var bg = $(this).css("background-image").trim();
+					var res = bg.substring(5, bg.length - 2);
+					$("body").addClass("limited");
+					$("#fullScreenImg").addClass("fullScreenImg");
+					$("#fullScreenImg img").attr({
+						src: res,
+					});
+				});
+
+				$("#playvideo").click(function fullScreen(anything) {
+					$("#fullScreenImg .image").addClass("hideImg");
+					$("body").addClass("limited");
+					$("#fullScreenImg").addClass("fullScreenImg");
+					$("#fullScreenImg video").addClass("videorun");
+				});
+				$("#fullScreenImg #closeImg").click(function () {
+					$("body").removeClass("limited");
+					$("#fullScreenImg .image").removeClass("hideImg");
+					$("#fullScreenImg").removeClass("fullScreenImg");
+					$("#fullScreenImg video").removeClass("videorun");
+				});
+			});
+		</script>
+	</body>
+</html>

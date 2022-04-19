@@ -1,0 +1,122 @@
+.home {
+	background-image: url(../images/contact.webp);
+}
+/* Start contact-us */
+.contact-us {
+	background-color: #fff;
+	display: flex;
+}
+.contact-us .text {
+	flex: 1;
+	padding: 50px 30px;
+}
+.contact-us .text h3 {
+	font-size: var(--m-text-size);
+	font-weight: 600;
+	color: var(--dark-color);
+	margin-bottom: 15px;
+}
+.contact-us .text h3 + p {
+	color: var(--text-color);
+	font-size: var(--xs-text-size);
+	font-weight: 500;
+	line-height: var(--line-height);
+	margin-bottom: 50px;
+}
+.contact-us .text .info {
+	display: flex;
+    margin-bottom: 50px;
+}
+.contact-us .text .info .box {
+	margin: 0 10px;
+}
+.contact-us .text .info .box h4 {
+	color: var(--dark-color);
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.contact-us .text .info .box p {
+	color: var(--text-color);
+	font-size: var(--xs-text-size);
+	font-weight: 500;
+	max-width: 200px;
+	line-height: var(--line-height);
+}
+@media (max-width: 767px) {
+	.contact-us .text .info .box p {
+		max-width: 140px;
+	}
+}
+.contact-us .text .info .box a {
+	font-size: var(--xs-text-size);
+	font-weight: 500;
+	color: var(--dark-color);
+	transition: var(--main-transition);
+}
+.contact-us .text .info .box a:hover {
+	color: var(--main-color);
+}
+.contact-us .text form * {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: var(--xs-text-size);
+    padding: 5px 0 10px;
+    margin: 5px 0;
+}
+.contact-us .text form input:not([type=submit]),
+.contact-us .text form textarea {
+    border-bottom: 1px solid var(--text-color);
+    resize: none;
+	caret-color: var(--main-color);
+}
+.contact-us .text form textarea {
+    min-height: 80px;
+}
+.contact-us .text form input[type=submit] {
+    width: fit-content;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: var(--xs-text-size);
+    cursor: pointer;
+	transition: var(--main-transition);
+}
+.contact-us .text form input[type=submit]:hover {
+	background-color: #ff414dcc;
+}
+.contact-us .text .social {
+	margin-top: 50px;
+}
+.contact-us .text .social h4 {
+	color: var(--dark-color);
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.contact-us .text .social ul {
+	display: flex;
+}
+.contact-us .text .social ul li a {
+	color: var(--dark-color);
+	margin-right: 15px;
+	transition: var(--main-transition);
+}
+.contact-us .text .social ul li a:hover {
+	color: var(--main-color);
+}
+.contact-us .image {
+	flex-basis: 50%;
+	background-image: url(../images/welcome.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+@media (max-width: 991px) {
+	.contact-us .image {
+		display: none;
+	}
+}
+/* End contact-us */
